@@ -1,0 +1,58 @@
+
+一，数组
+	用来保存一组具有相同的数据类型的数据的集合
+
+	注意： 多个数据      相同的数据类型
+
+二，数组的使用
+	1，数组的创建
+		数据类型 数组名[]=new 数据类型[数组长度]；
+	2，数组的赋值
+		数组名[下标]=值;
+	3,数组的取值
+		数组名[下标]；
+	4，数组创建+赋值
+		数据类型 数组名[]=new 数组名[]{值1，值2，...};
+
+		数据类型 数组名[]={值1，值2，.....}；
+
+三，数组的遍历
+	  数组的长度：   数组名.length
+
+	  for(int i=0;i<数组名.length;i++){
+		数组名[i];
+	  }
+
+四,排序
+	排序： 按照某种规范，把一组数据重新排列
+	排序的规范： 升序   降序
+	排序的方式：
+		1，选择排序（array）
+			//选择一个基准数据
+			for(int i=0;i<array.length;i++){
+				//一一得到与基准数据作比较的数据
+				for(int j=i+1;j<array.length;j++){
+					//判断基准数据和比较的数据的结果是否互换位置
+					if(array[i] > array[j]){
+						int tep=array[i];
+						array[i]=array[j];
+						array[j]=tep;
+					}
+				}
+			}
+
+		2，冒泡排序
+			for(int i=0;i<array.length-1;i++){
+				for(int j=0;j<array.length-1-i;j++){
+					if(array[j]>array[j+1]){
+						int tep=array[j];
+						array[i]=array[j+1];
+						array[j+1]=tep;
+					}
+				}
+			}
+
+
+		3，快速排序
+
+			Arrays.sort(数组名);    //升序

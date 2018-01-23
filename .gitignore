@@ -1,0 +1,8 @@
+.DS_Store
+Thumbs.db
+db.json
+*.log
+.Archive/
+node_modules/
+.md_configs.data
+.me_configs.data

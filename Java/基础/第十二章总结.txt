@@ -1,0 +1,104 @@
+ java.lang.*;  java.util.*;   java.text.*;   java.io.*;
+一，java.io.*;
+	1,File
+		硬盘上的文件或目录
+		路径：
+			windows     D:\TT\a.txt
+			java        D:\\TT\\a.txt
+			            D:/TT/a.txt
+		绝对路径： 
+			具体在硬盘中的某个盘符下    e:/
+		相对路径：
+			一般都相对项目所在的路径     a.txt
+
+	 构造器：
+		File("");
+		File("","");
+		File(File fi,"");
+
+	 方法：
+		exists();
+		createNewFile()
+		delete()
+		deleteOnExit()
+		mkdir()
+		mkdirs()
+		isFile()
+		isDirectory()
+		getName()
+		getPath()
+		getParent()
+		getLength()
+
+二，流
+	一组有序的，有起点和终点的字节集合（一组信息）
+
+	方向不同：  （基点： 程序）
+		输入流（读取文件）
+		输出流（写入文件）
+	数据类型不同：
+		字节流
+		字符流
+	功能不同：
+		节点流
+		过滤流
+
+	
+	1，字节流
+		a，字节输入流   InputStream  FileInputStream    BufferedInputStream  
+			构造器：
+				FileInputStream("")
+				FileInputStream(File fi)
+				BufferedInputStream(InputStream in);
+			方法：
+				read()
+				read(byte b[])
+				close()
+		b，字节输出流   OutputStream   FileOutputStream   BufferedOutputStream
+			构造器;
+				FileOutputStream("")
+				FileOutputStream(File fi)
+				FileOutputStream("",boolean b)
+				FileOutputStream(File fi,boolean b)
+				BufferedOutputStream(OutputStream out);
+			方法：
+				write()
+				write(byte b[])
+				write(byte b[],0,len)
+				close()
+
+	2,字符流
+		a，字符输入流
+			Reader     FileReader     BufferedReader
+			构造器：
+				FileReader("")
+				FileReader(File fi);
+				BufferedReader(FileReader fr);
+			方法：
+				read()
+				close()
+				readLine()
+
+		b，字符输出流
+			Writer    FileWriter     BufferedWriter
+
+			构造器：
+				FileWriter("")
+				FileWriter(File fi);
+				FileWriter("",boolean b)
+				FileWriter(File fi,boolean b)
+				BufferedWriter(FileWriter fw)
+			方法：
+				write()
+				close()
+				write("")
+				newLine()
+
+		
+
+
+
+
+		 
+
+

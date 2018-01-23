@@ -1,0 +1,47 @@
+滚动视图
+ScrollView 垂直滚动
+HorizontalScrollView 水平滚动
+
+TextView 滚动
+ 
+android:scrollbars="horizontal"
+java代码中
+tv.setMovementMethod(ScrollingMovmentMethod.getInstance())
+
+TimePicker 
+tmp.setOnTimeChangeListener()
+
+TimePickerDiaLog
+TimePickeDiaLog tpd = new TimePickeDiaLog(context,new OnTimeSetListener,hourofday , minut,boolean is24hour )
+
+
+ProgressBar 进度条
+android:max 设置进度条的最大值
+style=      设置进度条的显示效果
+
+RatingBar 评分控件
+android:numstart 设置评分星星数
+android:stepSize 设置点击步长
+android:rating  设置当前值(默认值)
+android:isIndictor 设置是否可以点击
+
+rb.setOnRatingBarChangListener(new OnRatingBarChangeListener())
+
+
+SeekBar 拖动进度条
+android:max 设置最大值
+android:progress 设置当前值
+
+sb.setOnSeekBarChangeListener(new ....)
+
+ListView 简单的只有文字显示的ListView
+   1,准备一个ListView
+   2,需要一个ArrayAdapte  new ArrayAdapter(context,R.layout.xxx,数据源)
+   3,为lv设置adapter
+
+   为lv设置监听器
+   lv.setOnItemClickListener()
+
+
+
+

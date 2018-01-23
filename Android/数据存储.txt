@@ -1,0 +1,97 @@
+Android有四种数据存储方式：
+	1、SharedPreferences
+	2、SQLite
+	3、Content Provider
+	4、File
+
+SharedPreferences:
+	1、是一种轻型的数据存储方式
+	2、本质是基于XML文件存储key-value键值对数据
+	3、通常用来存储一些简单的配置信息
+	4、数据保存在手机中 data/data/当前包名/shared_prefs
+
+
+	1、SharedPreferences对象本身只能获取数据而不支持存储和修改，存储修改是通过Editor对象实现
+	2、实现SharedPreferences存储的步骤：
+		1) 获得SharedPreferences对象
+			//通过PreferenceManager获得默认的SharedPreferences
+			SharedPreferences pref = PreferenceManager.getDefaultSharedPreferences(MainActivity.this);
+			//也可以自定义SharedPreferences对象；第一个参数为文件的名字，第二个参数为文件的权限
+			SharedPreferences pref = getSharedPreferences("myPref",MODE_PRIVATE);
+
+		2) 获得SharedPreferences.Editor对象
+			Editor editor = pref.edit();
+
+		3) 通过Editor接口的putXxx方法保存key-value对其中Xxx表示不同的数据类型
+			editor.putString("name","张三");
+			editor.putInt("age",30);
+			editor.putLong("time",System.currentTimeMills());
+			editor.putBoolean("default",true);
+
+		4) 通过Editor接口的commit方法提交保存key-value对
+			editor.commit();
+
+		5) 可以除掉不想要的多余属性；执行一次操作后必须提交才会生效
+			editor.remove("default");
+			editor.commit();
+
+		6) 可通过SahredPreferences对象的getXxx方法获取信息；第一个参数为键名，与前面添加的键名保持一致，第二个参数为默认值，如果找不到则显示默认值
+			String name = pref.getString("name","姓名");
+			int age = pref.getInt("age",0);
+
+	学习案例：http://blog.csdn.net/x1299906945/article/details/51555351
+				
+
+
+SQLite:
+	SQLite是D.Richard Hipp用C语言编写的开源嵌入式数据库引擎。它支持大多数的SQL92标准，并且可以在所有主要的操作系统上运行。
+	-支持高达2TB大小的数据库
+	-以单个文件的形式存在
+	-以B-Tree的数据结构形式存储在磁盘
+
+	特点：
+		1、轻量级 一个动态库、单文件
+		2、独立性 没有依赖、无序安装
+		3、隔离性 全部在一个文件夹中
+		4、跨平台 支持众多操作系统
+		5、多语言接口 支持众多编程语言
+		6、安全性 事务
+			-通过数据库上的独占性和共享锁来实现独立事务处理
+			-多个进程可以在同一时间从同一数据库读取数据，但只有一个可以写入数据
+
+	SQLite的数据类型：
+		-SQLite支持NULL、INTEGER、REAL、TEXT和BLOB数据类型
+		-依次代表：空值、整型值、浮点值、字符串值、二进制对象
+	动态数据类型(弱引用)：
+		-当某个值插入到数据库时，SQLite将会检查它的类型，如果该类型与关联的列不匹配，SQLite则会尝试将该值转换成该列的类型，如果不能转换，则该值将作为本身的类型存储。
+
+	
+	使用须知：
+		-由于资源占用少、性能良好和零基础管理成本，嵌入式数据库有了它的用武之地。例如Android、IOS
+		-没有可用于SQLite的网络服务器、只能通过网络共享可能存在文件锁定或者性能问题
+		-只提供数据库级的锁定
+		-没有用户账户概念，而是根据文件系统确定所有数据库的权限
+
+	使用SQLiteDatabase步骤：
+		1、创建一个数据库，并且打开；第一个参数为数据库名，第二个参数为权限，第三个参数为工厂
+			SQLiteDatabase db = openOrCreateDatabase("user.db",MODE_PRIVATE,NULL);
+		2、执行SQL语句
+			//创表
+			db.execSQL("create table if not exists usertb(_id integer primary key autoincrement, name text not null,age integer not null,sex text not null)");
+			//向表中添加数据
+			db.execSQL("insert into usertb(name,sex,age) values('张三','男',20)");
+		2、PremiumSoft Navicat工具打开db文件，注册机中选择Navicat Premium Enterprise v10.x
+
+		3、查询
+			Cursor c = db.rawQuery("select * from usertb",null);
+			if(c != null){
+				while(c.moveToNext()){
+					int id = c.getInt(c.getColumnIndex("_id"));
+					String name = c.getInt(c.getColumnIndex("name"));
+				}
+				c.close();
+			}
+			db.close();
+
+
+
