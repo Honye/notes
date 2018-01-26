@@ -1,5 +1,7 @@
-²é¿´MySQLÊý¾Ý¿âµÄ±àÂë
 
+æŸ¥çœ‹MySQLæ•°æ®åº“çš„ç¼–ç 
+
+```sql
 	mysql> SHOW VARIABLES LIKE 'character_set_%';
 	+--------------------------+---------------------------------------------------------+
 	| Variable_name            | Value                                                   |
@@ -24,9 +26,11 @@
 	| collation_server     | gbk_chinese_ci    |
 	+----------------------+-------------------+
 	3 rows in set (0.00 sec)
+```
 
-²é¿´MySQL»ù±¾ÅäÖÃ	mysql> \s
-			
+æŸ¥çœ‹MySQLåŸºæœ¬é…ç½®	mysql> \s
+
+```sql
 	mysql> \s
 	--------------
 	C:\Program Files\MySQL\MySQL Server 5.5\bin\mysql.exe  Ver 14.14 Distrib 5.5.25a, for Win32 (x86)
@@ -49,36 +53,50 @@
 	Threads: 1  Questions: 76  Slow queries: 0  Opens: 35  Flush tables: 1  Open tab
 	les: 1  Queries per second avg: 0.027
 	--------------
+```
 
-Í¨¹ýMySQLÃüÁîÐÐÐÞ¸Ä£º(±àÂë¿ÉÑ¡)
+é€šè¿‡MySQLå‘½ä»¤è¡Œä¿®æ”¹ï¼š(ç¼–ç å¯é€‰)
 
-	mysql> set character_set_client=utf8;
-	mysql> set character_set_connection=utf8;
-	mysql> set character_set_database=utf8;
-	mysql> set character_set_results=utf8;
-	mysql> set character_set_server=utf8;
-	mysql> set character_set_system=utf8;
-	mysql> set collation_connection=utf8;
-	mysql> set collation_database=utf8;
-	mysql> set collation_server=utf8;
+```sql
+mysql> set character_set_client=utf8;
+mysql> set character_set_connection=utf8;
+mysql> set character_set_database=utf8;
+mysql> set character_set_results=utf8;
+mysql> set character_set_server=utf8;
+mysql> set character_set_system=utf8;
+mysql> set collation_connection=utf8;
+mysql> set collation_database=utf8;
+mysql> set collation_server=utf8;
+```
 
-ÐÞ¸ÄÊý¾Ý¿âµÄ×Ö·û¼¯
+### ä¿®æ”¹æ•°æ®åº“çš„å­—ç¬¦é›†
 
-	mysql> use mydb;
-	mysql> alter database mydb character set utf8;
+```sql
+mysql> use mydb;
+mysql> alter database mydb character set utf8;
+```
 
-´´½¨Ö¸¶¨×Ö·û¼¯µÄÊý¾Ý¿â
+### åˆ›å»ºæŒ‡å®šå­—ç¬¦é›†çš„æ•°æ®åº“
 
-	mysql> create database mydb character set utf8;
+```sql
+mysql> create database mydb character set utf8;
+```
 
-ÐÞ¸Ä±íµÄ×Ö·û¼¯
+### ä¿®æ”¹è¡¨çš„å­—ç¬¦é›†
 
-	mysql> alter table type character set utf8;
+```sql
+mysql> alter table type character set utf8;
+```
 
-´´½¨Ö¸¶¨×Ö·û¼¯µÄ±í
+### åˆ›å»ºæŒ‡å®šå­—ç¬¦é›†çš„è¡¨
 
-	mysql> create table type(...) default charset=utf8;
+```sql
+mysql> create table type(...) default charset=utf8;
+```
 
-ÐÞ¸Ä×Ö¶ÎµÄ×Ö·û¼¯
+### ä¿®æ”¹å­—æ®µçš„å­—ç¬¦é›†
 
-	mysql> alter table type modify type_name varchar(50) CHARACTER SET utf8;
+```sql
+mysql> alter table type modify type_name varchar(50) CHARACTER SET utf8;
+```
+	
