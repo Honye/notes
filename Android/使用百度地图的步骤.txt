@@ -1,8 +1,0 @@
-步骤
-  1，注册成为百度开发者
-     地址：http://lbsyun.baidu.com/apiconsole/key
-  2，创建应用
-     应用名称：自己工程的名称
-     应用类型：Android SDK
-     SHA1:eclipse-->window-->perferences-->android-->build-->sha1
-     包名：新建的工程包名(即注册清单中的package)
