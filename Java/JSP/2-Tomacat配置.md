@@ -1,8 +1,8 @@
 
 ### Tomcat 目录结构
 
-```table
-目录(-)   |   说明
+目录   |   说明
+:----: | ----
 /bin   |   存放各种平台下用于启动和停止 Tomcat 的命令文件
 /conf   |   存放 Tomcat 服务器的各种配置文件
 /lib   |   存放 Tomcat 服务器所需的各种 jar 文件
@@ -10,7 +10,6 @@
 /temp   |   Tomcat 运行时用于存放临时文件
 /webapps   |   当发布 Web 应用时，默认将 Web 应用的文件发布到此目录中
 /work   |   Tomcat 由 JSP 生成的 Servlet 放于此目录下
-```
 
 ### 修改默认端口号
 修改 Tomcat 安装目录下 `conf/server.xml` 文件

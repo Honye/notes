@@ -29,8 +29,9 @@ out 对象是 JspWriter 类的实例，是向客户端输出内容常用的对�
 
 #### request 对象
 客户端的请求信息将封装在 request 对象中，通过它才能了解到客户的需求，然后做出响应。它是 HttpServletRequest 类的实例。request 对象具有请求域，即完成客户端的请求之前，该对象一直有效。
-```table
+
 方法   |   返回   |   说明
+---- | ---- | ---- 
 getParameter(String name)   |   String   |   返回name指定参数的参数值
 getParameterValues(String name)   |   String []   |   返回包含参数name的所有值的数组
 setAttribute(String, Object)   |   void   |   存储此请求中的属性
@@ -44,7 +45,7 @@ getContentLength()   |   int   |   返回请求体的长度（字节数）
 getRemoteAddr()   |   String   |   返回发送此请求的客户端IP地址
 getRealPath(String path)   |   String   |   返回一虚拟路径的真实路径
 getContextPath()   |   String   |   返回上下文路径
-```
+
 **解决中文乱码问题**
 ```jsp
 <% 
@@ -63,13 +64,14 @@ getContextPath()   |   String   |   返回上下文路径
 
 #### response 对象
 response 对象包含了响应客户请求的有关信息，但在 JSP 中很少直接使用到它。它是 HttpServletResponse类的实例。response 对象具有页面作用域，即访问一个页面时，该页面的 response 对象只能对这次访问有效，其它页面的 response 对象对该页面无效。
-```table
+
 方法   |   返回   |   说明
+---- | ---- | ---- 
 getCharacterEncoding()   |   String   |   返回响应用的何种字符编码
 setContentType(String type)   |   void   |   设置响应的 MIME 类型
 getWriter()   |   PrintWriter   |   返回可以向客户端输出字符的一个对象（与内置out对象有区别）
 sendRedirect(String location)   |   void   |   重新定向客户端的请求
-```
+
 **内置 out 对象和 response.getWriter()**
 ```jsp
 <%
