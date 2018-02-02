@@ -41,6 +41,7 @@ tags: [Android]
 1. [Android 笔记 (持续更新)](http://www.jianshu.com/p/5e8dfc8a669c)
 2. [Kotlin 资源大全](https://juejin.im/post/591dd9f544d904006c9fbb96)
 3. [Android 开发规范](https://github.com/Blankj/AndroidStandardDevelop)
+4. [怎样让开源项目看起来“高大上”](http://segmentfault.me/2018/01/28/beautify-open-source-project/)
 
 ## 博客/论坛/公众号
 1. [玩 Android](http://www.wanandroid.com/)
