@@ -36,6 +36,7 @@ tags: [Android]
 
 ## 教程
 1. [Android 混淆解析](https://www.jianshu.com/p/84114b7feb38)
+2. [Android小技巧 提升开发效率](https://www.jianshu.com/p/52ba7800d3b9)
 
 ## 笔记
 1. [Android 笔记 (持续更新)](http://www.jianshu.com/p/5e8dfc8a669c)
