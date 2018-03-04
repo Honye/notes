@@ -17,9 +17,9 @@
 - [React Native 基础知识（百度网盘）]([http://pan.baidu.com/s/1o8SEMGq](http://pan.baidu.com/s/1o8SEMGq))
 
 ## 开源项目
-- [react-native-Gank](https://github.com/wangdicoder/react-native-Gank) ![][ic-android]
-- [GankCamp-React-Native](https://github.com/iwgang/GankCamp-React-Native)
-- [react-native-cnblogs](https://github.com/togayther/react-native-cnblogs)![][ic-mac]
+- [react-native-Gank](https://github.com/wangdicoder/react-native-Gank) ![][ic-android]![][ic-mac]
+- [GankCamp-React-Native](https://github.com/iwgang/GankCamp-React-Native)![][ic-android]![][ic-mac]
+- [react-native-cnblogs](https://github.com/togayther/react-native-cnblogs)![][ic-android]![][ic-mac]
 
 ## modules
 ### UI 组件
@@ -46,5 +46,5 @@
 - [react-native-thirdparty](https://github.com/Geek-ch/react-native-thirdparty) - 收集了一些 RN 的第三方组件集合
 - [JS.coach](https://js.coach/?collection=React+Native) - React Native 插件
 
-[ic-android]: http://opz28dn03.bkt.clouddn.com/svg/android16.svg
+[ic-android]: ./_image/android12.svg
 [ic-mac]: ./_image/mac12.svg

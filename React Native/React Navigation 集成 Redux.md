@@ -6,7 +6,7 @@ tags: [React Native, Redux]
 更新时间：2018-03-03
 
 修复因 React Navigation 更新引起的 <font color="red">`addListener is not  a function`</font> 的问题。
-
+- - - - --
 [react-navigation](https://reactnavigation.org/docs/intro/) 是 React Native 官方推荐的导航库。[redux](https://redux.js.org/) 是一个状态容器，redux 的简单使用可参考阮一峰的 [Redux 入门教程](http://www.ruanyifeng.com/blog/2016/09/redux_tutorial_part_one_basic_usages.html)，现在网上也有很多中文文档。
 
 在 React Navigation 最新版本中需要添加 `react-navigation-redux-helpers` 包
