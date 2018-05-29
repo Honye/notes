@@ -6,3 +6,4 @@ db.json
 node_modules/
 .md_configs.data
 .me_configs.data
+/_book
