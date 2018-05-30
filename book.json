@@ -1,0 +1,16 @@
+{
+	"author": "Honye",
+	"title": "Honye's Notes",
+	"description": "There is no end to learning!",
+	"links": {
+		"sidebar": {
+			"GitHub": "https://github.com/Hongye567"
+		}
+	},
+	"plugins": [
+		"anchors",
+		"multipart",
+		"codeblock-filename"
+	],
+	"gitbook": "3.1.1"
+}

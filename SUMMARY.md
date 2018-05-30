@@ -58,4 +58,6 @@
 - Wechat
   - [小程序自定义评分组件(精度0.1)-template](Wechat/template-rating.md)
   - [小程序自定义评分组件(精确0.1)-Component](Wechat/component-rating.md)
+- Others
+  - [AsciiDoc 使用指南](Others/AsciiDoc-使用指南.adoc)
 
