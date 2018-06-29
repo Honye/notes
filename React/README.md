@@ -6,3 +6,85 @@ React 相关
 - [dva 开发规范](开发文档.md)
 - [dva + umi 使用笔记](dva使用.md)
 
+### modules
+
+- 富文本
+  - [react-quill](https://github.com/zenoamaro/react-quill) 
+  - [react-draft-wysiwyg](https://github.com/jpuri/react-draft-wysiwyg) 
+  - [react-lz-editor](https://github.com/leejaen/react-lz-editor) 
+  - [braft-editor](https://github.com/margox/braft-editor) 
+  - [react-umeditor](https://github.com/liuhong1happy/react-umeditor) 
+
+渲染富文本
+
+```jsx
+<div dangerouslySetInnerHTML={{ __html: `你的 HTML 字符串` }} />
+```
+
+可用在线视频地址: http://7xkyp2.media1.z0.glb.clouddn.com/MarkEditor2.0.mp4
+
+参考:
+
+https://segmentfault.com/a/1190000012239812
+
+### 组件
+
+组件名必需大写字母开头
+
+```jsx
+class CustomComponent extends React.Component
+```
+
+布尔类型属性建议拼写完整
+
+```jsx
+// 不建议
+<CheckBox checked />
+// 推荐
+<CheckBox checked={true} />
+```
+
+### 声明组件的不同方式
+
+1. `React.createElement(component, props, ...children)`
+
+   ```jsx
+   function Hello(props) {
+       return React.createElement(
+       	'h1',
+           null,
+           'Hello World!'
+       )
+   }
+   ```
+
+2. class ... extends ...
+
+   ```jsx
+   class Hello extends React.Component {
+       render() {
+           return (
+               <h1>Hello World!</h1>
+           )
+       }
+   }
+   ```
+
+### JSX
+
+1. JSX 会移除空行和开始与结尾处的空格。标签邻近的新行也会被移除，字符串常量内部的换行会被压缩成一个空格 。
+
+2. 组件可以通过数组的形式返回多个元素
+
+   ```jsx
+   class Multi extends React.Component {
+       render() {
+           return [
+               <h1>Hello World!</h1>,
+               <p>This is a paragraph.</p>
+           ]
+       }
+   }
+   ```
+
+   
