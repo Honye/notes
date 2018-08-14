@@ -10,7 +10,8 @@
 	"plugins": [
 		"anchors",
 		"multipart",
-		"codeblock-filename"
+		"codeblock-filename",
+		"fontsettings"
 	],
 	"gitbook": "3.1.1"
 }

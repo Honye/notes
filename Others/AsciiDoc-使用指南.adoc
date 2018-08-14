@@ -1,11 +1,74 @@
 = AsciiDoc 简明指南 =
-Honye <hongye.jun@qq.com>
+Honye; AsciiDoctor <hongye.jun@qq.com>
 v0.1, 2018-05
 :doctype: book (1)
+:toc:
+:imagesdir: assets/images
+:homepage: https://asciidoctor.org
+::
 
 [preface]
 == 前言
 AsciiDoc 是一种文本文档格式，可以用于书写文档，文章，手册，书籍和 UNIX 手册。AsciiDoc 文件可以使用 asciidoc 命令转换成 HTML 和 DocBook 文件格式。AsciiDoc 结构先进：AsciiDoc 语法和输出标签（几乎可以转换成任意的 SGML/XML 标记）都可以由用户自己定义和扩展。
+
+== 段落
+
+.普通
+----
+段落不需要写任何特殊标记。一个段落只能是一行或多行连续文本。
+
+在开始新的段落前使用至少一行的空白行分隔。
+----
+
+段落不需要写任何特殊标记。一个段落只能是一行或多行连续文本。
+
+在开始新的段落前使用至少一行的空白行分隔。
+
+.换行
+----
+Rubies are red, +
+Topazes are blue.
+
+[%hardbreaks]
+Ruby is red.
+Java is black.
+----
+
+Rubies are red, +
+Topazes are blue.
+
+[%hardbreaks]
+Ruby is red.
+Java is black.
+
+.literal
+----
+A normal paragraph.
+
+ A paragraph offset by at least one space becomes a literal paragraph.
+ All lines in a literal paragraph must be adjacent.
+
+ A literal paragraph is displayed as preformatted text.
+ The text is shown in a fixed-width font.
+ Spaces and newlines,
+ like the ones in this sentence,
+ are preserved.
+
+Another normal paragraph.
+----
+
+A normal paragraph.
+
+ A paragraph offset by at least one space becomes a literal paragraph.
+ All lines in a literal paragraph must be adjacent.
+
+ A literal paragraph is displayed as preformatted text.
+ The text is shown in a fixed-width font.
+ Spaces and newlines,
+ like the ones in this sentence,
+ are preserved.
+
+Another normal paragraph.
 
 == 一本书的骨架
 
@@ -80,6 +143,59 @@ _斜体_：`\_斜体_`
 注释 //空格
 
 引用 空格后面跟文字
+
+== 文件头 ==
+
+[icons=None, caption="重要"]
+IMPORTANT: 文件头是可选项
+
+[caption="注意"]
+CAUTION: 文件头不应含有空白行，使用空白行与正文分离
+
+.只有标题
+----
+= 我的文件头
+
+我的文件正文
+----
+
+.标题和作者信息
+----
+= 我的文件标题
+作者1; 作者2 <myname@email.com>
+
+文件正文
+----
+
+[caption="提示"]
+TIP: AsciiDoctor 允许在作者信息处写多个作者。多个作者之间使用 `;` 分隔
+
+.标题, 作者, 修订信息
+----
+= 文件标题
+作者 <myname@email.com>
+v1.0, 2014-01-01
+
+文件正文
+----
+
+[caption="重要"]
+IMPORTANT: 如果要写修订信息一定要先写作者信息，共同使用
+
+.含有属性设置的文件头
+----
+= 文件标题
+作者 <myname@email.com>
+v1.0, 2018-04-11
+:toc:
+:imagesdir: assets/images
+:homepage: https://asciidoctor.org
+
+文件正文
+----
+
+[caption="注意"]
+NOTE: 文件头只能写在文件开头，且只能有一个文件头
 
 == 基本区块 ==
 
