@@ -32,9 +32,9 @@ wxml 文件中编写布局
 
 ```html
 <view class='com-rating'>
-  <view class='rating-icon' wx:for='{{[1,2,3,4,5]}}' wx:key='*this'
-    bindtap='_handleTap' data-num='{{item}}'>
-    <view class='rating-on' style='width:{{rating >= (max/5)*item ? 1 : rating < (max/5)*(item-1) ? 0 : (rating*10)%(max/5*10)/(max/5*10)}}em'>
+  <view class='rating-icon' wx:for='{ {[1,2,3,4,5]} }' wx:key='*this'
+    bindtap='_handleTap' data-num='{ {item} }'>
+    <view class='rating-on' style='width:{ {rating >= (max/5)*item ? 1 : rating < (max/5)*(item-1) ? 0 : (rating*10)%(max/5*10)/(max/5*10)} }em'>
       <image src='./../../images/rating_on_icon.png' mode='widthFix' style='width:1em' />
     </view>
     <view class='rating-off' style='width:1em;'>

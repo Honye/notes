@@ -47,9 +47,9 @@ tags: [WeChat]
 ```html
 <template name="rating">
   <view class='com-rating'>
-    <block wx:for='{{[1,2,3,4,5]}}' wx:key='*this'>
-      <view class='rating-on' 
-        style='width:{{rating >= (max/5)*item ? 1 : rating < (max/5)*(item-1) ? 0 : (rating*10)%(max/5*10)/(max/5*10)}}em'
+    <block wx:for='{ {[1,2,3,4,5]} }' wx:key='*this'>
+      <view class='rating-on'
+        style='width:{ {rating >= (max/5)*item ? 1 : rating < (max/5)*(item-1) ? 0 : (rating*10)%(max/5*10)/(max/5*10)} } em'
       ><i class='fa fa-star'></i></view>
       <view class='rating-off'><i class='fa fa-star'></i></view>
     </block>
@@ -90,7 +90,7 @@ tags: [WeChat]
 ```html
 <import src='../rating/rating' />
 ...
-<template is='rating' data='{{rating:7.3, max:10}}'></template>
+<template is='rating' data='\{\{rating:7.3, max:10\}\}'></template>
 ```
 
 **page.wxss**
