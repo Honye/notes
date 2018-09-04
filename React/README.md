@@ -87,4 +87,15 @@ class CustomComponent extends React.Component
    }
    ```
 
-   
+
+### React 离开确认提醒
+
+参考：https://juejin.im/post/5a982b15f265da237313de1a
+
+	
+
+### antd-mobile Carousel 只有一个子元素时的问题
+
+当 `<Carousel>` 有多于一个子元素的时候会使用 `<li>` 包裹，当只有一个子元素的时候不会使用 `<li>` 包裹，但 antd-mobile 似乎通过 JS 修改了子元素最近一层父元素的内联 style 的 height 为 auto，导致再只有一个子元素时设置高无效。
+
+解决方案时在子元素外出包裹一个空的 `<div>`。

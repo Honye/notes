@@ -67,10 +67,15 @@
 * [Web](Web/README.md)
   * [HTML 小知识](Web/HTML.md)
   * [flex 兼容](Web/flex-兼容.md)
+* CSS
+  * [LESS](CSS/LESS.md)
+  * [小笔记](CSS/notes.md)
+* HTTP/HTTPS
+  * [小笔记](HTTP/notes.md)
 * Wechat
   * [小程序自定义评分组件\(精度0.1\)-template](Wechat/template-rating.md)
   * [小程序自定义评分组件\(精确0.1\)-Component](Wechat/component-rating.md)
-* [Others](others.md)
+* [Others](Others.md)
   * [AsciiDoc 使用指南](Others/AsciiDoc-使用指南.adoc)
   * [QQ 群文件](Others/QQ群文件.md)
   * [AutoHotkey](Others/AutoHotkey.md)
@@ -79,4 +84,5 @@
   * [Markdown](Others/Markdown.md)
   * [WinRAR 注册](Others/WinRAR-注册.md)
   * [Word 文档](Others/Word-文档.md)
+  * [命令行](Others/Shell.md)
 
