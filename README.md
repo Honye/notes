@@ -74,6 +74,8 @@
 * Wechat
   * [小程序自定义评分组件\(精度0.1\)-template](Wechat/template-rating.md)
   * [小程序自定义评分组件\(精确0.1\)-Component](Wechat/component-rating.md)
+  * [小程序笔记](Wechat/weapp-notes.md)
+  * [使用其他字体](Wechat/use-other-font.md)
 * [Others](Others.md)
   * [AsciiDoc 使用指南](Others/AsciiDoc-使用指南.adoc)
   * [QQ 群文件](Others/QQ群文件.md)
