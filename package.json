@@ -4,6 +4,9 @@
   "description": "notes",
   "main": "index.js",
   "dependencies": {
+    "gitbook-plugin-anchors": "^0.7.1",
+    "gitbook-plugin-codeblock-filename": "^0.0.9",
+    "gitbook-plugin-multipart": "^0.3.0",
     "gitbook-theme-comscore": "0.0.3"
   },
   "devDependencies": {},
