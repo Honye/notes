@@ -88,6 +88,8 @@
 
 * [小笔记](HTTP/notes.md)
 * [Postman 使用之 Scripts](HTTP/Postman使用之Scripts.md)
+* [Fiddler 移动抓包 HTTPS](HTTP/Fiddler移动抓包HTTPS.md)
+* [微信公众号开发调试（Charles 抓包）](HTTP/微信公众号开发调试.md)
 
 ## Wechat
 
