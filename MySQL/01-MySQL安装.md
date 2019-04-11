@@ -3,6 +3,35 @@
  - MSI 安装（Windows Installer）
  - ZIP 安装
 
+### Mac
+
+1. 安装包[下载](https://dev.mysql.com/downloads/mysql/)
+
+   ![image-20190323150303686](/Users/jun/HONYE/notes/MySQL/assets/image-20190323150303686.png)
+
+   安装过程中会要求设定密码，**不要忘记了**
+
+2. 设置
+
+   打开"系统偏好设置"能看到 MySQL 入口，进入能修改配置及启动和关闭 MySQL
+
+3. 设置环境变量
+
+   编辑 `~/.bash_profile`，追加如下
+
+   ```shell
+   # MySQL
+   export PATH=${PATH}:/usr/local/mysql/bin
+   ```
+
+   重启命令行工具，输入 `mysql` 验证是否安装成功
+
+4. 连接
+
+   ```shell
+   mysql -u root -p
+   ```
+
 ## 目录结构
  - bin：存储可执行文件
  - data：存储数据文件

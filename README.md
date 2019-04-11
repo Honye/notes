@@ -1,4 +1,8 @@
-# notes
+<div align="center">
+	<img src="./images/notebook.png" alt="icon-note" /><br><br>
+    <div><b>好记性不如烂笔头</b></div>
+    <div><I>The palest ink is better than the best memory</I></div>
+</div>
 
 ## Android
 
