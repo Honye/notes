@@ -72,3 +72,8 @@ Git 提交信息技巧。
 | Upgrade | 升级 |
 | Downgrade | 降级 |
 | Refactor | 重构 |
+
+## 其他
+
+- [Git 的奇技淫巧](https://github.com/521xueweihan/git-tips)
+
