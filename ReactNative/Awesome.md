@@ -39,6 +39,8 @@
 ### 功能
 - [react-native-branch-deep-linking](https://github.com/BranchMetrics/react-native-branch-deep-linking) - 深度分享
 - [react-native-wechat](https://github.com/yorkie/react-native-wechat) - 微信登录、分享、收藏和支付
+- [react-native-app-upgrade](https://github.com/songxiaoliang/react-native-app-upgrade) - 自动更新下载（非热更新）
+- [react-native-camera](https://github.com/react-native-community/react-native-camera) - 二维码/条码扫描
 
 ## 其它
 - [awesome-react-native](https://github.com/jondot/awesome-react-native) - Awesome React Native components, news, tools, and learning material! 

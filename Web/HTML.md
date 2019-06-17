@@ -20,3 +20,21 @@ tags: [HTML, HTML5]
 ```
 
 [iOS 官网说明](https://developer.apple.com/library/archive/documentation/AppleApplications/Reference/SafariWebContent/ConfiguringWebApplications/ConfiguringWebApplications.html) 
+
+## input
+
+MDN 地址：<https://developer.mozilla.org/zh-CN/docs/Web/HTML/Element/Input/file>
+
+```html
+<!-- 选择图片 -->
+<input type="file" accept="image/*" >
+<!-- 选择视频 -->
+<input type="file" accept="video/*" >
+<!-- 选择音频 -->
+<input type="file" accept="audio/*" >
+<!-- 直接打开相机拍照 -->
+<input type="file" accept="image/*" capture="camera" >
+<!-- 直接打开相机录像 -->
+<input type="file" accept="video/*" capture="camera" >
+```
+

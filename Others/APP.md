@@ -25,6 +25,7 @@ Tags: [APP, Awesome]
 17. [百度网盘](http://pan.baidu.com/download) - 云存储
 18. [The Unarchiver](https://theunarchiver.com/) - 解压工具
 19. [RunCat](https://kyomesuke.com/runcat/index.html) - 纯属好玩儿
+20. [Paragon NTFS](https://www.paragon-software.com/us/home/ntfs-mac/) - Mac 读取 NTFS 硬盘
 
 ## NPM
 

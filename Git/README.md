@@ -9,6 +9,21 @@
 - [TortoiseGit 保存用户名及密码](./TortoiseGit-保存用户名及密码.md)
 - [Git 词典](#Git-词典)
 
+## 代理
+
+```bash
+git config --global http.proxy http://127.0.0.1:1080
+git config --global https.proxy https://127.0.0.1:1080
+
+git config --global http.proxy socks5://127.0.0.1:1080
+git config --global https.proxy socks5://127.0.0.1:1080
+
+git config --global --unset http.proxy
+git config --global --unset https.proxy
+
+npm config delete proxy
+```
+
 ## Git 常用命令
 
 ![Git 常用命令](./_images/git-shell.jpg)
@@ -40,8 +55,22 @@
 4. 重命名文件和文件夹
 
    ```shell
-   git mv oldname newname
+   git mv <oldname> <newname>
    ```
+   
+5. 查看远程仓库 URL
+
+   ```bash
+   git remote -v
+   ```
+   
+6. 重命名本地分支
+
+   ```bash
+   git branch -m <newBranchName>
+   ```
+
+   
 
 
 ## Git 词典
