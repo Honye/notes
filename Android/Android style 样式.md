@@ -1,3 +1,9 @@
+---
+title: 状态栏样式
+sidebar: true
+---
+
+
 ## Android style 样式应用学习
 
 ```xml

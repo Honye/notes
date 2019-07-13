@@ -43,7 +43,7 @@ mysql> SELECT USER();
 mysql> CREATE { DATABASE | SCHEMA } [ IF NOT EXISTS ] db_name [ DEFAULT ] CHARACTER SET [ = ] charset_name;
 ```
 2. 查看当前服务器下的数据库列表
-```shel
+```shell
 mysql> SHOW { DATABASES | SCHEMAS } [ LIKE 'pattern' | WHERE expr ];
 ```
 3. 查看警告

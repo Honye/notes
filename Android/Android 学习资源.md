@@ -2,7 +2,9 @@
 title: Android 学习资源
 date: 2017-06-26 08:44:04
 tags: [Android]
+sidebar: true
 ---
+
 ## 组件
 1. [FontMetrics以及自定义ImageSpan实现TextView中图文混排时图文的居中对齐](http://www.jianshu.com/p/2650357f7547)
 2. [Android组件 - 收藏集 - 掘金](http://www.jianshu.com/p/25419a0d4e66)

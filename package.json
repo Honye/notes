@@ -3,14 +3,13 @@
   "version": "1.0.0",
   "description": "notes",
   "main": "index.js",
-  "dependencies": {
-    "gitbook-plugin-anchors": "^0.7.1",
-    "gitbook-plugin-codeblock-filename": "^0.0.9",
-    "gitbook-plugin-multipart": "^0.3.0",
-    "gitbook-theme-comscore": "0.0.3"
+  "dependencies": {},
+  "devDependencies": {
+    "vuepress": "^1.0.2"
   },
-  "devDependencies": {},
   "scripts": {
+    "dev": "vuepress dev .",
+    "build": "vuepress build .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

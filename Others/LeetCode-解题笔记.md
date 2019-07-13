@@ -64,7 +64,7 @@ var reverse = function(x) {
 };
 ```
 
-###9. [Palindrome Number](https://leetcode.com/problems/palindrome-number/description/) 
+### 9. [Palindrome Number](https://leetcode.com/problems/palindrome-number/description/) 
 
 方案一（很丑）：将数字转为字符串，再将字符分割为数组，对数组反转后转为字符串，判断反转前后字符串是否相同。
 
@@ -105,4 +105,3 @@ var isPalindrome = function(x) {
     return true;
 };
 ```
-

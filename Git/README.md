@@ -1,3 +1,9 @@
+---
+title: Git
+sidebar: true
+---
+
+
 <div align="center">
     <img src="./_images/git.png"><br>
     <h1>Git</h1>
@@ -28,13 +34,19 @@ npm config delete proxy
 
 ![Git 常用命令](./_images/git-shell.jpg)
 
-1. 查看项目分支（远程和本地）
+1. 添加远程分支
+
+   ```shell
+   git remote add origin <url>
+   ```
+
+2. 查看项目分支（远程和本地）
 
    ```bash
    git branch -a
    ```
 
-2. 切换分支
+3. 切换分支
 
    ```shell
    # 复制远程分支到本地且切换到该分支
@@ -43,7 +55,7 @@ npm config delete proxy
    git checkout develop
    ```
 
-3. 删除分支
+4. 删除分支
 
    ```bash
    # 删除本地分支
@@ -52,22 +64,44 @@ npm config delete proxy
    git push origin :<BranchName>
    ```
 
-4. 重命名文件和文件夹
+5. 重命名文件和文件夹
 
    ```shell
    git mv <oldname> <newname>
    ```
-   
-5. 查看远程仓库 URL
+
+6. 查看远程仓库 URL
 
    ```bash
    git remote -v
    ```
-   
-6. 重命名本地分支
+
+7. 重命名本地分支
 
    ```bash
    git branch -m <newBranchName>
+   ```
+
+8. 取消本地关联的远程分支
+
+   ```shell
+   git remote remove origin
+   ```
+
+9. 清空提交历史记录，成为新仓库
+
+   ```shell
+   # 1. 新建分支且无任何 commit 信息
+   git checkout --orphan latest_branch
+   # 2. 初始 commit
+   git add -A
+   git commit -am "Initial"
+   # 3. 删除原有分支 master
+   git branch -d master
+   # 4. 重命名当前分支为 master
+   git branch -m master
+   # 5. 强制推送到远程分支
+   git push -f origin master
    ```
 
    

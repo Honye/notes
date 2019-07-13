@@ -39,9 +39,9 @@ MDN 地址：<https://developer.mozilla.org/zh-CN/docs/Web/CSS/:active>
 
 iOS `:active` 不生效
 
-> By default, Safari Mobile does not use the :active state unless there is a touchstart event handler on the relevant element or on the <body>.
+> By default, Safari Mobile does not use the :active state unless there is a touchstart event handler on the relevant element or on the \<body>.
 
-在 iOS 系统的移动设备中，需要在相关元素或 <body> 上绑定一个 touchstart 事件才能激活 :active 状态
+在 iOS 系统的移动设备中，需要在相关元素或 \<body> 上绑定一个 touchstart 事件才能激活 :active 状态
 
 ```html
 <body ontouchstart=""></body>
