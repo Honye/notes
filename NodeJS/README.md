@@ -16,6 +16,11 @@ tags: [Node.js]
    npm config set disturl https://npm.taobao.org/dist --global
    ```
 
+   ```bash
+   # 原 https://registry.yarnpkg.com
+   yarn config set registry https://registry.npm.taobao.org
+   ```
+
 2. 更新 npm
 
    ```shell
