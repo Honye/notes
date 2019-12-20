@@ -53,3 +53,23 @@ iOS `:active` 不生效
 </script>
 ```
 
+## calc()
+
+```css
+.classname {
+  width: calc(0 + 34px); /* 此句不生效，0 必须加单位 */
+  width: calc(0px + 34px); /* ✓ */
+}
+```
+
+### iPhoneX 下巴适配
+
+```css
+.fix-iphonex {
+  bottom: 34px;
+  bottom: constant(safe-area-inset-bottom); /* 兼容 iOS < 11.2 */
+  bottom: env(safe-area-inset-bottom); /* 兼容 iOS >= 11.2 */
+}
+```
+
+[网页适配 iPhoneX，就是这么简单](https://aotu.io/notes/2017/11/27/iphonex/index.html)

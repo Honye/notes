@@ -116,4 +116,43 @@ d. \<text> 内无法嵌入其它非 \<text> 组件，\<text> 内嵌入的 \<text
    }
    ```
 
+### 微信开发者工具命令行
 
+**⚠️ 必须先把开发者工具的服务端口打开。**
+
+微信开发者工具 -> `设置` -> `安全设置` -> 开启服务端口
+
+为命令行添加别名（Mac）
+
+```bash
+cd ~  # 进入用户主目录
+vim .bash_profile
+```
+
+添加如下：
+
+```bash
+# WeChat
+alias wechat=/Applications/wechatwebdevtools.app/Contents/MacOS/cli
+```
+
+使生效
+
+```bash
+source .bash_profile
+```
+
+使用
+
+```bash
+# 打开工具
+wechat -o
+# 打开路径 /Users/username/demo 下的项目
+cli -o /Users/username/demo
+```
+
+更多使用：<https://developers.weixin.qq.com/miniprogram/dev/devtools/cli.html>
+
+### wx.login 必须在 wx.getUserInfo 前调用
+
+`wx.login` 如果未在 `wx.getUserInfo` 前调用可能会出现服务端解密失败的情况
