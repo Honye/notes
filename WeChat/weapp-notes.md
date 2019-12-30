@@ -156,3 +156,5 @@ cli -o /Users/username/demo
 ### wx.login 必须在 wx.getUserInfo 前调用
 
 `wx.login` 如果未在 `wx.getUserInfo` 前调用可能会出现服务端解密失败的情况
+
+- [小程序使用 rpx 存在像素差问题（grid 布局实战篇）](./weapp-rpx.md)
