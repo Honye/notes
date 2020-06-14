@@ -59,6 +59,9 @@ module.exports = {
       {
         title: 'Git',
         path: '/Git/',
+        children: [
+          ['/Git/README.md', '常用命令和技巧']
+        ]
       },
       {
         title: 'HTTP',
@@ -117,6 +120,7 @@ module.exports = {
         path: '/NodeJS/',
         collapsable: false,
         children: [
+          ['/NodeJS/README.md', '常用命令和技巧']
           ['/NodeJS/第一个NPM包.md', '第一个NPM包'],
         ],
       },
@@ -134,7 +138,6 @@ module.exports = {
           ['/React/开发环境.md', '开发环境'],
           ['/React/开发环境01.md', '开发环境01'],
           ['/React/开发文档.md', '开发文档'],
-          ['/React/学习待办.md', '学习待办'],
           ['/React/dva使用.md', 'dva使用'],
           ['/React/Less-实现换肤.md', 'Less实现换肤'],
         ],
@@ -173,6 +176,7 @@ module.exports = {
           ['/WeChat/use-other-font.md', '使用其他字体'],
           ['/WeChat/template-rating.md', '评分组件 template 版'],
           ['/WeChat/component-rating.md', '评分组件 component 版'],
+          ['/WeChat/weapp-rpx.md', '小程序使用 rpx 存在像素差（实战篇）']
         ],
       },
       {
@@ -185,7 +189,7 @@ module.exports = {
         title: '其他',
         collapsable: true,
         children: [
-          ['/Others/APP.md', 'APP'],
+          ['/Others/APP.md', '常用 APP'],
           ['/Others/AutoHotkey.md', 'AutoHotkey'],
           ['/Others/Chrome.md', 'Chrome'],
           ['/Others/LeetCode-解题笔记.md', 'LeetCode 解题笔记'],
