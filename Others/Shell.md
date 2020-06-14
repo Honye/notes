@@ -56,4 +56,16 @@
      md5sum markeditor_64_1.2.5.3.exe
      ```
 
-     
+### 快捷键
+
+<kbd>control</kbd> + <kbd>W</kbd>：删除光标前一个单词
+
+<kbd>control</kbd> + <kbd>U</kbd>：删除光标前所有字符
+
+<kbd>control</kbd> + <kbd>K</kbd>：删除光标后所有字符
+
+<kbd>control</kbd> + <kbd>A</kbd>：移动光标至字符头
+
+<kbd>control</kbd> + <kbd>E</kbd>：移动光标至字符尾
+
+<kbd>control</kbd> + <kbd>I</kbd>：清屏

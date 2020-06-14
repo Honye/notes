@@ -10,6 +10,7 @@
 
 ## [Git](Git/README.md)
 
+* [常用命令和技巧](./Git/README.md)
 * [TortoiseGit 保存用户名及密码](Git/TortoiseGit-保存用户名及密码.md)
 * [Windows Git 客户端安装](Git/Windows-Git-客户端安装.md)
 
@@ -61,6 +62,11 @@
 * [MySQL 基础语法](MySQL/MySQL基础语法.md)
 * [XAMPP 启动 Tomcat 报错](MySQL/XAMPP启动Tomcat报错.md)
 
+## NodeJS
+
+- [常用命令和技巧](./NodeJS/README.md)
+- [发布第一个 NPM 包](./NodeJS/第一个NPM包.md)
+
 ## [React](React/README.md)
 
 * [开发环境](React/开发环境.md)
@@ -87,6 +93,7 @@
 
 * [LESS](CSS/LESS.md)
 * [小笔记](CSS/notes.md)
+* [Stylus](./CSS/Stylus.md)
 
 ## HTTP/HTTPS
 
@@ -101,15 +108,17 @@
 * [小程序自定义评分组件\(精确0.1\)-Component](Wechat/component-rating.md)
 * [小程序笔记](Wechat/weapp-notes.md)
 * [使用其他字体](Wechat/use-other-font.md)
+* [小程序使用 rpx 存在像素差（实战篇）](./WeChat/weapp-rpx.md)
 
 ## Others
 
-* [AsciiDoc 使用指南](Others/AsciiDoc-使用指南.adoc)
-* [QQ 群文件](Others/QQ群文件.md)
-* [AutoHotkey](Others/AutoHotkey.md)
-* [Chrome](Others/Chrome.md)
-* [LeetCode 解题笔记](Others/LeetCode-解题笔记.md)
+* [常用 APP](./Others/APP.md)
+* [命令行](Others/Shell.md)
 * [Markdown](Others/Markdown.md)
+* [AsciiDoc 使用指南](Others/AsciiDoc-使用指南.adoc)
+* [AutoHotkey](Others/AutoHotkey.md)
+* [LeetCode 解题笔记](Others/LeetCode-解题笔记.md)
+* [Chrome](Others/Chrome.md)
 * [WinRAR 注册](Others/WinRAR-注册.md)
 * [Word 文档](Others/Word-文档.md)
-* [命令行](Others/Shell.md)
+* [QQ 群文件](Others/QQ群文件.md)

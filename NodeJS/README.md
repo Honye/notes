@@ -122,4 +122,18 @@ tags: [Node.js]
    nvm alias default v12.4
    ```
 
-   
+
+### MacOS
+
+1. Xcode CLT 重新安装
+
+   升级系统后可能需要重新安装 Xcode Command Line
+
+   ```bash
+   # 得到原安装位置
+   xcode-select --print-path
+   # 删除原安装，上面得到的路径
+   sudo rm -r -f /Library/Developer/CommandLineTools
+   # 提示安装或执行以下命令手动安装
+   xcode-select --install
+   ```

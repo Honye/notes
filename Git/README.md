@@ -155,3 +155,8 @@ Git 提交信息技巧。
 - [Windows Git 客户端安装](./Windows-Git-客户端安装.md)
 - [TortoiseGit 保存用户名及密码](./TortoiseGit-保存用户名及密码.md)
 
+## 生成 AUTHORS
+
+```bash
+git log --format='%aN <%aE>' | LC_ALL=C.UTF-8 sort -uf > AUTHORS
+```
