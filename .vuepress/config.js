@@ -58,10 +58,7 @@ module.exports = {
       },
       {
         title: 'Git',
-        path: '/Git/',
-        children: [
-          ['/Git/README.md', '常用命令和技巧']
-        ]
+        path: '/Git/'
       },
       {
         title: 'HTTP',
@@ -120,7 +117,6 @@ module.exports = {
         path: '/NodeJS/',
         collapsable: false,
         children: [
-          ['/NodeJS/README.md', '常用命令和技巧']
           ['/NodeJS/第一个NPM包.md', '第一个NPM包'],
         ],
       },
@@ -176,7 +172,7 @@ module.exports = {
           ['/WeChat/use-other-font.md', '使用其他字体'],
           ['/WeChat/template-rating.md', '评分组件 template 版'],
           ['/WeChat/component-rating.md', '评分组件 component 版'],
-          ['/WeChat/weapp-rpx.md', '小程序使用 rpx 存在像素差（实战篇）']
+          ['/WeChat/weapp-rpx.md', '小程序使用 rpx 存在像素差（实战篇）'],
         ],
       },
       {
