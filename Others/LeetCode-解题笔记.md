@@ -105,3 +105,51 @@ var isPalindrome = function(x) {
     return true;
 };
 ```
+
+### 70. [爬楼梯](https://leetcode-cn.com/problems/climbing-stairs/)
+
+如果 n = 5，存在两种情况
+
+第一种：第一次爬 1个台阶，剩下 4个台阶
+
+第二种：第一次爬 2个台阶，剩下 3个台阶
+
+得出 `f(5) = f(4) + f(3)`
+
+依次得出 `f(n) = f(n - 1) + f(n - 2)`
+
+```javascript
+/**
+ * 存在问题：当 n 比较大时耗时长，如：45，需要缓存
+ * 
+ * @param {number} n positive integer
+ * @return {number}
+ */
+const climbStairs1 = function (n) {
+  if (n === 1) {
+    return 1;
+  }
+  if (n === 2) {
+    return 2;
+  }
+  if (n > 2) {
+    return climbStairs(n - 1) + climbStairs(n - 2);
+  }
+  return 1;
+};
+
+const climbStairs = function (n) {
+  if (n === 1) return 1;
+  if (n === 2) return 2;
+
+  let a = 1; // 缓存 fn(n - 1)
+  let b = 2; // 缓存 fn(n - 2)
+  let c;
+  for (let i = 3; i <=n; ++i) {
+    c = a + b;
+    a = b;
+    b = c;
+  }
+  return c;
+};
+```
