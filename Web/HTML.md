@@ -38,3 +38,7 @@ MDN 地址：<https://developer.mozilla.org/zh-CN/docs/Web/HTML/Element/Input/fi
 <input type="file" accept="video/*" capture="camera" >
 ```
 
+### iOS <input\> 聚焦时页面放大
+
+1. 字体不小于 16px
+2. 禁止页面缩放

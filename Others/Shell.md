@@ -69,3 +69,11 @@
 <kbd>control</kbd> + <kbd>E</kbd>：移动光标至字符尾
 
 <kbd>control</kbd> + <kbd>I</kbd>：清屏
+
+### 快速查看公网 IP
+
+```bash
+curl ipinfo.io/ip
+curl icanhazip.com
+```
+
