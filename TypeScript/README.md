@@ -20,3 +20,5 @@
   type RecordKeyType<T> = T extends Reacord<infer K, V> ? K : never
   RecordKeyType<{a: string; b: string}> // "a" | "b"
   ```
+
+- [通过 JS 文件注释自动生成 .d.ts 声明文件](https://www.typescriptlang.org/docs/handbook/declaration-files/dts-from-js.html)

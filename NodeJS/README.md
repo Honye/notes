@@ -122,6 +122,10 @@ tags: [Node.js]
    nvm alias default v12.4
    ```
 
+## 多版本管理
+
+- [nvm](https://github.com/nvm-sh/nvm) - Node Version Manager - POSIX-compliant bash script to manage multiple active node.js versions
+- [n](https://github.com/tj/n) - Node version management
 
 ### MacOS
 
@@ -137,3 +141,5 @@ tags: [Node.js]
    # 提示安装或执行以下命令手动安装
    xcode-select --install
    ```
+
+### [package.json 中 browser、module、main 字段优先级](https://github.com/SunshowerC/blog/issues/8)

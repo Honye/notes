@@ -39,6 +39,12 @@ git remote add origin <url>
 git branch -a
 ```
 
+### 查看本地分支关联（跟踪）的远程分支
+
+```bash
+git branch -vv
+```
+
 ### 切换分支
 
 ```shell

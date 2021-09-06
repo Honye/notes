@@ -37,23 +37,75 @@ module.exports = {
     // ],
     sidebar: [
       {
-        title: 'Android',
-        path: '/Android/',
-        collapsable: false,
-        sidebarDepth: 1,
-        children: [
-          '/Android/Android style 样式.md',
-          '/Android/Android 学习资源.md',
-          '/Android/android_1回顾.md',
-          '/Android/android_2回顾.md',
-        ],
-      },
-      {
         title: 'CSS',
         collapsable: false,
         children: [
           '/CSS/notes.md',
           '/CSS/LESS.md',
+          '/CSS/Stylus.md',
+        ],
+      },
+      {
+        title: 'NodeJS',
+        path: '/NodeJS/',
+        collapsable: false,
+        children: [
+          ['/NodeJS/第一个NPM包.md', '第一个NPM包'],
+        ],
+      },
+      {
+        title: 'React',
+        path: '/React/',
+        collapsable: false,
+        children: [
+          ['/React/开发环境.md', '开发环境'],
+          ['/React/开发环境01.md', '开发环境01'],
+          ['/React/开发文档.md', '开发文档'],
+          ['/React/dva使用.md', 'dva使用'],
+          ['/React/Less-实现换肤.md', 'Less实现换肤'],
+        ],
+      },
+      {
+        title: 'Flutter',
+        path: '/Flutter/',
+        collapsable: false,
+        children: [],
+      },
+      {
+        title: 'React Native',
+        path: '/ReactNative/',
+        collapsable: false,
+        children: [
+          ['/ReactNative/react-native-开发环境.md', 'React Native 开发环境'],
+          ['/ReactNative/ReactNative之搭建开发环境.md', 'React Native 之搭建开发环境'],
+          ['/ReactNative/ReactNative之在设备上运行.md', 'React Native 之在设备上运行'],
+          ['/ReactNative/ReactNavigation集成Redux.md', 'React Navigation 集成 Redux'],
+          ['/ReactNative/ReactNative集成极光推送jpush-react-native.md', '集成极光推送'],
+          ['/ReactNative/JS实现RN文件上传.md', 'JS 实现 RN 文件上传'],
+          ['/ReactNative/Awesome.md', 'Awesome'],
+        ],
+      },
+      {
+        title: 'Web',
+        path: '/Web/',
+        collapsable: false,
+        children: [
+          ['/Web/UI.md', 'UI'],
+          ['/Web/electron.md', 'Electron'],
+          ['/Web/flex-兼容.md', 'flex 兼容'],
+        ],
+      },
+      {
+        title: '微信',
+        path: '/WeChat/',
+        collapsable: false,
+        children: [
+          ['/WeChat/weapp-notes.md', '笔记'],
+          ['/WeChat/awesome.md', 'Awesome'],
+          ['/WeChat/use-other-font.md', '使用其他字体'],
+          ['/WeChat/template-rating.md', '评分组件 template 版'],
+          ['/WeChat/component-rating.md', '评分组件 component 版'],
+          ['/WeChat/weapp-rpx.md', '小程序使用 rpx 存在像素差（实战篇）'],
         ],
       },
       {
@@ -68,6 +120,15 @@ module.exports = {
           ['/HTTP/微信公众号开发调试.md', '微信公众号开发调试'],
           ['/HTTP/Postman使用之Scripts.md', 'Postman使用之Scripts'],
           '/HTTP/Fiddler移动抓包HTTPS.md',
+        ],
+      },
+      {
+        title: 'DevOps',
+        collapsable: false,
+        children: [
+          ['/DevOps/nginx.md', 'NGINX'],
+          ['/DevOps/shell.md', 'Shell'],
+          ['/DevOps/vim.md', 'Vim'],
         ],
       },
       {
@@ -113,66 +174,23 @@ module.exports = {
         ],
       },
       {
-        title: 'NodeJS',
-        path: '/NodeJS/',
+        title: 'Android',
+        path: '/Android/',
         collapsable: false,
+        sidebarDepth: 1,
         children: [
-          ['/NodeJS/第一个NPM包.md', '第一个NPM包'],
+          '/Android/Android style 样式.md',
+          '/Android/Android 学习资源.md',
+          '/Android/android_1回顾.md',
+          '/Android/android_2回顾.md',
         ],
       },
       {
         title: 'PHP',
         path: '/PHP/',
         collapsable: false,
-        children: [],
-      },
-      {
-        title: 'React',
-        path: '/React/',
-        collapsable: false,
         children: [
-          ['/React/开发环境.md', '开发环境'],
-          ['/React/开发环境01.md', '开发环境01'],
-          ['/React/开发文档.md', '开发文档'],
-          ['/React/dva使用.md', 'dva使用'],
-          ['/React/Less-实现换肤.md', 'Less实现换肤'],
-        ],
-      },
-      {
-        title: 'React Native',
-        path: '/ReactNative/',
-        collapsable: false,
-        children: [
-          ['/ReactNative/react-native-开发环境.md', 'React Native 开发环境'],
-          ['/ReactNative/ReactNative之搭建开发环境.md', 'React Native 之搭建开发环境'],
-          ['/ReactNative/ReactNative之在设备上运行.md', 'React Native 之在设备上运行'],
-          ['/ReactNative/ReactNavigation集成Redux.md', 'React Navigation 集成 Redux'],
-          ['/ReactNative/ReactNative集成极光推送jpush-react-native.md', '集成极光推送'],
-          ['/ReactNative/JS实现RN文件上传.md', 'JS 实现 RN 文件上传'],
-          ['/ReactNative/Awesome.md', 'Awesome'],
-        ],
-      },
-      {
-        title: 'Web',
-        path: '/Web/',
-        collapsable: false,
-        children: [
-          ['/Web/UI.md', 'UI'],
-          ['/Web/electron.md', 'Electron'],
-          ['/Web/flex-兼容.md', 'flex 兼容'],
-        ],
-      },
-      {
-        title: '微信',
-        path: '/WeChat/',
-        collapsable: false,
-        children: [
-          ['/WeChat/weapp-notes.md', '笔记'],
-          ['/WeChat/awesome.md', 'Awesome'],
-          ['/WeChat/use-other-font.md', '使用其他字体'],
-          ['/WeChat/template-rating.md', '评分组件 template 版'],
-          ['/WeChat/component-rating.md', '评分组件 component 版'],
-          ['/WeChat/weapp-rpx.md', '小程序使用 rpx 存在像素差（实战篇）'],
+          ['/PHP/apache-vhost.md', '虚拟主机'],
         ],
       },
       {

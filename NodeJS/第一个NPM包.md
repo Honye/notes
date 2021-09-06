@@ -83,3 +83,26 @@ npm publish
 1. `patch`：小改动，如修复 BUG，版本号变动 v1.0.0 -> v1.0.1
 2. `minor`：增加新功能且不影响现有功能，版本号变动 v1.0.0 -> v1.1.0
 3. `major`：带有兼容性问题的大版本迭代，版本号 v1.0.0 -> v2.0.0
+
+## 撤销发布
+
+```shell
+# 不推荐。会删除社区包
+npm unpublish
+npm unpublish @honye/hello@0.0.1-beta
+npm unpublish @honye/hello --force
+# 推荐。不会在社区撤销已有的包，但会在安装时给出警告
+npm deprecate @honye/hello
+```
+
+## FAQ
+
+> error code E403
+>
+> error 403 403 Forbidden - PUT https://registry.npmjs.org/hello - Forbidden
+>
+> error 403 In most cases, you or one of your dependencies are requesting
+>
+> error 403 a package version that is forbidden by your security policy.
+
+检查邮箱是否通过验证。登录 npm 并验证邮箱
