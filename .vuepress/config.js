@@ -132,6 +132,13 @@ module.exports = {
         ],
       },
       {
+        title: 'Windows',
+        children: [
+          ['/Windows/capsLock-switch-language.md', 'Windows 使用 CapsLock 切换中英文模式'],
+          ['/Windows/PowerShell.md', 'PowerShell'],
+        ],
+      },
+      {
         title: 'Java',
         collapsable: false,
         children: [
@@ -192,12 +199,6 @@ module.exports = {
         children: [
           ['/PHP/apache-vhost.md', '虚拟主机'],
         ],
-      },
-      {
-        title: 'Windows',
-        path: '/Windows/PowerShell',
-        collapsable: false,
-        children: [],
       },
       {
         title: '其他',
