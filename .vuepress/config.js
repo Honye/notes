@@ -4,37 +4,15 @@ module.exports = {
   base: '/notes/',
   themeConfig: {
     nav: [
-      { text: 'Home', link: '/' },
+      { text: '首页', link: '/' },
       {
-        text: 'About Me',
+        text: '关于',
         items: [
-          { text: 'Blog', link: 'https://honye.github.io/' },
+          { text: 'Blog', link: 'https://www.imarkr.com' },
           { text: 'Wechat', link: '' },
         ],
       },
     ],
-    // sidebar: [
-    //   {
-    //     title: 'Android',
-    //     path: '/Android/',
-    //     children: [
-    //       ['/Android style 样式.md', '状态栏样式'],
-    //       '/Android/Android.md',
-    //     ],
-    //   },
-    //   '/CSS/',
-    //   '/Git/',
-    //   '/HTTP/',
-    //   '/Java/',
-    //   '/MySQL/',
-    //   '/Others/',
-    //   '/PHP/',
-    //   ['/React/', 'React'],
-    //   '/ReactNative/',
-    //   '/Web/',
-    //   '/WeChat/',
-    //   '/Windows/',
-    // ],
     sidebar: [
       {
         title: 'CSS',
