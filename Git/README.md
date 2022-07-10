@@ -194,7 +194,27 @@ git rm --cached -r .github
 # .github
 ```
 
+### 不同工作目录使用不同的 Git 配置
 
+首先在工作目录新建 `.gitconfig`，假设路径为 `~/company/.gitconfig`
+
+```properties
+[user]
+	name = Another Name
+	email = another@mail.com
+```
+
+修改用户目录下的配置（`~/.gitconfig`），增加如下：
+
+```properties
+[user]
+	name = Jun
+	email = jun@mail.com
+[includeIf "gitdir/i:~/company/"]
+	path = ~/company/.gitconfig
+```
+
+此时，全局 `user.name` 默认为 `Jun`，`~/company/` 目录下为 `Another Name`
 
 ## Git 词典
 
