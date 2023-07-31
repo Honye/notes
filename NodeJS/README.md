@@ -12,13 +12,13 @@ tags: [Node.js]
 
    ```shell
    # 原 https://registry.npmjs.org/
-   npm config set registry https://registry.npm.taobao.org --global
-   npm config set disturl https://npm.taobao.org/dist --global
+   npm config set registry https://registry.npmmirror.com --global
+   npm config set disturl https://npmmirror.com/mirrors/node --global
    ```
 
    ```bash
    # 原 https://registry.yarnpkg.com
-   yarn config set registry https://registry.npm.taobao.org
+   yarn config set registry https://registry.npmmirror.com
    ```
 
 2. 更新 npm
