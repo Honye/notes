@@ -26,6 +26,7 @@ Tags: [APP, Awesome]
 18. [百度网盘](http://pan.baidu.com/download) - 云存储
 19. [The Unarchiver](https://theunarchiver.com/) - 解压工具
 20. [Paragon NTFS](https://www.paragon-software.com/us/home/ntfs-mac/) - Mac 读取 NTFS 硬盘
+21. [Manico](https://manico.im/) - App 快速启动器
 
 ## brew
 

@@ -10,6 +10,9 @@ React 相关
 
 ### modules
 
+- Webpack 配置
+  - [@craco/craco](https://www.npmjs.com/package/@craco/craco)
+
 - 富文本
   - [react-quill](https://github.com/zenoamaro/react-quill) 
   - [react-draft-wysiwyg](https://github.com/jpuri/react-draft-wysiwyg) 
