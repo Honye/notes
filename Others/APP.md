@@ -84,3 +84,17 @@ Tags: [APP, Awesome]
 41. [Working Copy](https://itunes.apple.com/cn/app/working-copy/id896694807?mt=8) - Git clone
 42. [Touch Code Pro](https://itunes.apple.com/cn/app/touch-code-pro/id989524904?mt=8) - 开发
 43. [JSAnywhere](https://itunes.apple.com/cn/app/javascript-anywhere-jsanywhere/id363452277?mt=8) - 开发
+
+## Windows
+
+1. [AutoHotKey](https://www.autohotkey.com/) [![](../images/icons/github.svg)](https://github.com/AutoHotkey/AutoHotkey) - 自动化脚本工具，按键精灵
+2. [Listary](https://www.listary.com/) - 高效的文件资源搜索工具，资源管理器扩展
+3. [Flow Launcher](https://www.flowlauncher.com/) [![](../images/icons/github.svg)](https://github.com/Flow-Launcher/Flow.Launcher) - 非常美观的应用启动器，支持插件扩展
+4. [PowerToys](https://learn.microsoft.com/en-us/windows/powertoys/) [![](../images/icons/github.svg)](https://github.com/microsoft/PowerToys) - 微软官方的工具集合
+5. [Snipaste](https://www.snipaste.com/) - 美观又好用的截图工具，支持贴图和颜色拾取
+6. [Clash for Windows](https://github.com/Fndroid/clash_for_windows_pkg)
+7. [LocalSend](https://localsend.org/) [![](../images/icons/github.svg)](https://github.com/localsend/localsend) - 跨设备的文件共享应用
+8. [WinSCP](https://winscp.net/eng/index.php) - FTP、FTPS、SCP、SFTP、WebDAV、S3
+9.  [Postman](https://www.postman.com/) - API 文档管理和调试工具
+10. [向日葵](https://sunlogin.oray.com/) - 远程控制
+11. [Figma](https://www.figma.com/) - 原型设计、UI 设计、矢量图
