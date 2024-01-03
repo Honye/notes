@@ -27,6 +27,7 @@ Tags: [APP, Awesome]
 19. [The Unarchiver](https://theunarchiver.com/) - 解压工具
 20. [Paragon NTFS](https://www.paragon-software.com/us/home/ntfs-mac/) - Mac 读取 NTFS 硬盘
 21. [Manico](https://manico.im/) - App 快速启动器
+22. [Raycast](https://www.raycast.com/) - 支持插件开发的快速启动工具
 
 ## brew
 
