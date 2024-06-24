@@ -28,6 +28,19 @@ Tags: [APP, Awesome]
 20. [Paragon NTFS](https://www.paragon-software.com/us/home/ntfs-mac/) - Mac 读取 NTFS 硬盘
 21. [Manico](https://manico.im/) - App 快速启动器
 22. [Raycast](https://www.raycast.com/) - 支持插件开发的快速启动工具
+23. [Apple Configurator](https://apps.apple.com/us/app/apple-configurator/id1037126344?mt=12)
+24. [Image2Icon](https://apps.apple.com/us/app/image2icon-make-your-icons/id992115977?mt=12&ls=1)
+25. [Shottr](https://shottr.cc/) - 截图工具
+26. [Gifski](https://apps.apple.com/us/app/gifski/id1351639930?mt=12) - 视频转 Gif
+27. [TopMost](https://apps.apple.com/cn/app/topmost-窗口可以置顶的工具/id1583505872?mt=12) - 一个窗口在最顶层的网页、图片、PDF浏览器和富文本编辑器
+28. [Ice](https://icemenubar.app/) - 开源的强大菜单栏管理工具（~~替代 Dozer~~）
+29. [HandShaker](https://www.smartisan.com/apps/#/handshaker) - Mac 管理 Android 手机内容
+30. [Snap](https://apps.apple.com/cn/app/snap/id418073146?mt=12)
+31. [BetterTouchTool](https://folivora.ai/) - 手势操作
+32. [Keyboard Maestro](https://www.keyboardmaestro.com/) - 自动化
+33. [AltStore](https://altstore.io/)
+34. [VMWare Fusion](https://www.vmware.com/)
+35. Adobe Zii
 
 ## brew
 
