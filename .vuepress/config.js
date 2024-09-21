@@ -117,6 +117,12 @@ module.exports = {
         ],
       },
       {
+        title: 'Apple',
+        children: [
+          ['/Apple/Terminal.md', 'Mac 终端'],
+        ],
+      },
+      {
         title: 'Java',
         collapsable: false,
         children: [

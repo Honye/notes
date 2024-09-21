@@ -74,6 +74,10 @@
 * [Windows 使用 CapsLock 切换中英文模式](/Windows/capsLock-switch-language.md)
 * [PowerShell](/Windows/PowerShell.md)
 
+## Apple
+
+* [Terminal](/Apple/Terminal.md)
+
 ## [TypeScript](TypeScript/README.md)
 
 ## Java
