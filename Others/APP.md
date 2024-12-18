@@ -20,27 +20,28 @@ Tags: [APP, Awesome]
 12. [印象笔记](https://www.yinxiang.com/) - 笔记记录
 13. [uTools](https://u.tools/) - 小工具集
 14. [Navicat Premium](https://www.navicat.com.cn/products) - MySQL
-15. [~~Background Music~~](https://github.com/kyleneideck/BackgroundMusic) - ~~Mac 通话时会将其他声音变小，这个可自定义声音大小~~ 有时候会导致电话没声音
-16. [WPS Office](https://www.wps.cn/) - 办公
-17. [Sketch](https://www.sketch.com/) - 原型
-18. [百度网盘](http://pan.baidu.com/download) - 云存储
-19. [The Unarchiver](https://theunarchiver.com/) - 解压工具
-20. [Paragon NTFS](https://www.paragon-software.com/us/home/ntfs-mac/) - Mac 读取 NTFS 硬盘
-21. [Manico](https://manico.im/) - App 快速启动器
-22. [Raycast](https://www.raycast.com/) - 支持插件开发的快速启动工具
-23. [Apple Configurator](https://apps.apple.com/us/app/apple-configurator/id1037126344?mt=12)
-24. [Image2Icon](https://apps.apple.com/us/app/image2icon-make-your-icons/id992115977?mt=12&ls=1)
-25. [Shottr](https://shottr.cc/) - 截图工具
-26. [Gifski](https://apps.apple.com/us/app/gifski/id1351639930?mt=12) - 视频转 Gif
-27. [TopMost](https://apps.apple.com/cn/app/topmost-窗口可以置顶的工具/id1583505872?mt=12) - 一个窗口在最顶层的网页、图片、PDF浏览器和富文本编辑器
-28. [Ice](https://icemenubar.app/) - 开源的强大菜单栏管理工具（~~替代 Dozer~~）
-29. [HandShaker](https://www.smartisan.com/apps/#/handshaker) - Mac 管理 Android 手机内容
-30. [Snap](https://apps.apple.com/cn/app/snap/id418073146?mt=12)
-31. [BetterTouchTool](https://folivora.ai/) - 手势操作
-32. [Keyboard Maestro](https://www.keyboardmaestro.com/) - 自动化
-33. [AltStore](https://altstore.io/)
-34. [VMWare Fusion](https://www.vmware.com/)
-35. Adobe Zii
+15. [Navicat Premium Lite](https://www.navicat.com/en/products/navicat-premium-lite) - 免费 PostgreSQL、MySQL、SQLite、MongoDB、Redis
+16. [~~Background Music~~](https://github.com/kyleneideck/BackgroundMusic) - ~~Mac 通话时会将其他声音变小，这个可自定义声音大小~~ 有时候会导致电话没声音
+17. [WPS Office](https://www.wps.cn/) - 办公
+18. [Sketch](https://www.sketch.com/) - 原型
+19. [百度网盘](http://pan.baidu.com/download) - 云存储
+20. [The Unarchiver](https://theunarchiver.com/) - 解压工具
+21. [Paragon NTFS](https://www.paragon-software.com/us/home/ntfs-mac/) - Mac 读取 NTFS 硬盘
+22. [Manico](https://manico.im/) - App 快速启动器
+23. [Raycast](https://www.raycast.com/) - 支持插件开发的快速启动工具
+24. [Apple Configurator](https://apps.apple.com/us/app/apple-configurator/id1037126344?mt=12)
+25. [Image2Icon](https://apps.apple.com/us/app/image2icon-make-your-icons/id992115977?mt=12&ls=1)
+26. [Shottr](https://shottr.cc/) - 截图工具
+27. [Gifski](https://apps.apple.com/us/app/gifski/id1351639930?mt=12) - 视频转 Gif
+28. [TopMost](https://apps.apple.com/cn/app/topmost-窗口可以置顶的工具/id1583505872?mt=12) - 一个窗口在最顶层的网页、图片、PDF浏览器和富文本编辑器
+29. [Ice](https://icemenubar.app/) - 开源的强大菜单栏管理工具（~~替代 Dozer~~）
+30. [HandShaker](https://www.smartisan.com/apps/#/handshaker) - Mac 管理 Android 手机内容
+31. [Snap](https://apps.apple.com/cn/app/snap/id418073146?mt=12)
+32. [BetterTouchTool](https://folivora.ai/) - 手势操作
+33. [Keyboard Maestro](https://www.keyboardmaestro.com/) - 自动化
+34. [AltStore](https://altstore.io/)
+35. [VMWare Fusion](https://www.vmware.com/)
+36. Adobe Zii
 
 ## brew
 
